@@ -43,10 +43,10 @@ public sealed class Server {
         
         // Get network properties.
         Ip = "0.0.0.0";
-        Port = 19137;
+        Port = 19132;
 
         Network = new Network.Network(Logger);
-        Network.Name = "SkyWing Net"; //TODO Name from MOTD
+        Network.Name = "A SkyWing Server"; //TODO Name from MOTD
 
         if (!StartupPreparedNetworkInterfaces()) {
             ForceShutdownExit();
